@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# nikola temp files
+.doit.db.*
+cache/
