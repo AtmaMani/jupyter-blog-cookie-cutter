@@ -16,15 +16,15 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Atma Mani"  # (translatable)
-BLOG_TITLE = "Atma's blog"  # (translatable)
+BLOG_AUTHOR = "Roasted Peanuts"  # (translatable)
+BLOG_TITLE = "Mr. Peanut's blog"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://atmamani.github.io/"
+SITE_URL = "https://atmamani.github.io/jupyter-blog-cookie-cutter/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://atmamani.github.io/"
-BLOG_EMAIL = "atmabharathi@gmail.com"
+# BASE_URL = "https://atmamani.github.io/jupyter-blog-cookie-cutter/"
+BLOG_EMAIL = "roasted@peanuts.com"
 BLOG_DESCRIPTION = "Deriving insights from spatial data"  # (translatable)
 
 # Nikola is multilingual!
@@ -138,10 +138,11 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/articles.html", "Articles"),
-        ("/talks.html/", "Talks"),
-        ("/cheatsheets.html/", "Cheatsheets"),
-        ("/apps.html/", "Apps"),
+        ("/project-a.html", "Project A"),
+        ("/project-b.html/", "Project B"),
+        (("/project-c.html/", "Project C"),
+         ("/project-c/pySpark.html/", "pySpark"),
+         "Project C"),
         ("/rss.xml", "RSS feed"),
     ),
 }
