@@ -140,13 +140,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/project-a/", "Project A"),
         ("/project-b/", "Project B"),
-        (
-            (
-                ("/project-c/", "Project C"),
-                ("/project-c/pySpark/", "pySpark"),
-            ),
-            "Project C"
-        ),
+        ("/project-c/", "Project C"),
         ("/rss.xml", "RSS feed"),
     ),
 }
@@ -159,7 +153,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog"
+THEME = "bootstrap3"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
