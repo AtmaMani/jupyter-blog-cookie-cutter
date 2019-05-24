@@ -138,12 +138,12 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/project-a.html", "Project A"),
-        ("/project-b.html/", "Project B"),
+        ("/project-a/", "Project A"),
+        ("/project-b/", "Project B"),
         (
             (
-                ("/project-c.html/", "Project C"),
-                ("/project-c/pySpark.html/", "pySpark"),
+                ("/project-c/", "Project C"),
+                ("/project-c/pySpark/", "pySpark"),
             ),
             "Project C"
         ),
