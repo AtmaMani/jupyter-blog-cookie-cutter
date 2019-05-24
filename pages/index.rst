@@ -1,4 +1,4 @@
-.. title: index
+.. title: Welcome to Mr. Peanut's blog
 .. slug: index
 .. date: 2019-05-23 14:08:46 UTC-07:00
 .. tags: 
@@ -7,4 +7,4 @@
 .. description: 
 .. type: text
 
-New content here.
+Root level content here
