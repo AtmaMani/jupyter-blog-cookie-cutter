@@ -106,3 +106,4 @@ venv.bak/
 # nikola temp files
 .doit.db.*
 cache/
+output
