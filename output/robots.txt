@@ -1,4 +1,4 @@
-Sitemap: https://atmamani.github.io/sitemapindex.xml
+Sitemap: https://atmamani.github.io/jupyter-blog-cookie-cutter/sitemapindex.xml
 
 User-Agent: *
 Host: atmamani.github.io

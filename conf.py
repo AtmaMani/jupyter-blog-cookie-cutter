@@ -140,9 +140,13 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/project-a.html", "Project A"),
         ("/project-b.html/", "Project B"),
-        (("/project-c.html/", "Project C"),
-         ("/project-c/pySpark.html/", "pySpark"),
-         "Project C"),
+        (
+            (
+                ("/project-c.html/", "Project C"),
+                ("/project-c/pySpark.html/", "pySpark"),
+            ),
+            "Project C"
+        ),
         ("/rss.xml", "RSS feed"),
     ),
 }

@@ -6,15 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://atmamani.github.io/galleries/rss.xml</loc>
-  <lastmod>2019-05-23T23:20:00Z</lastmod>
+  <loc>https://atmamani.github.io/jupyter-blog-cookie-cutter/galleries/rss.xml</loc>
+  <lastmod>2019-05-24T20:45:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://atmamani.github.io/rss.xml</loc>
-  <lastmod>2019-05-23T21:08:00Z</lastmod>
+  <loc>https://atmamani.github.io/jupyter-blog-cookie-cutter/rss.xml</loc>
+  <lastmod>2019-05-24T20:45:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://atmamani.github.io/sitemap.xml</loc>
-  <lastmod>2019-05-23T23:25:00Z</lastmod>
+  <loc>https://atmamani.github.io/jupyter-blog-cookie-cutter/sitemap.xml</loc>
+  <lastmod>2019-05-24T20:45:00Z</lastmod>
  </sitemap>
 </sitemapindex>
