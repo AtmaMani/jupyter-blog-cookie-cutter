@@ -60,5 +60,20 @@ Here is a list, also these are the things you need to change based on your proje
  - Each folder has a `index.md` file which summarizes that project and hyperlinks to sub pages. The metadata for these files needs `markdown.extensions.meta` enabled, which is done in line `1073`. To learn more [see here](https://getnikola.com/handbook.html#pelican-markdown-metadata).
  - **Site search**: You can make search engines such as Google, DuckDuckGo to index your site and provide site specific search. Here, I opted for the latter search engine. This is enabled in lines `1153-1166`.
 
-## Editng, building, deploying
-Now that you have customized the `conf.py` file, throw in all your notebook files into the `pages` folder or subfolders within it. Then edit the `index.md` file appropriately. Next, 
+## Editing, building, deploying
+Now that you have customized the `conf.py` file, throw in all your notebook files into the `pages` folder or sub-folders within it. Then edit the `index.md` within each folder appropriately. You can include a summary of what each folder (project in this example) entails and a **hyperlink to each of the pages (notebooks) within it**. Next, 
+
+ - run `nikola build` which will export the notebooks, markdown files into HTML pages into the `output` folder.
+ - run `nikola github_deploy -m "your commit message"` which will smartly separate out the source files (Jupyter notebooks, markdown files, etc) from the output files (the build HTML, index files). It commits the source into the branch you picked for `GITHUB_SOURCE_BRANCH` variable and the output files into the branch you picked for the `GITHUB_DEPLOY_BRANCH` (which typically is `gh-pages`, unless you are deploying to GitHub user pages, in which case, it would be `master`). It uses the commit message you passed as the argument.
+
+That's it. Your pages are built and pushed to remote. You can refresh your website and see the changes live.
+
+From now on, to update your website, all you need to do, is edit / add notebook files, then simply run `github_deploy` command which build, commit, push and deploy for you.
+
+### Notes:
+  - `github_deploy` command will auto build the source. So you need not run the build command explicitly.
+  - Running the build command helps you preview the changes before you make it final and commit. You can follow up the `build` command with the `serve` command to view it in your browser.
+  - The `.gitignore` file will ignore the contents of the `output` folder which contains your built artifacts. This will however be included into the `gh-pages` branch, but in an exploded fashion.
+  - `github_deploy` will commit and push to remote.
+
+Happy blogging! The world needs more of good writers.
